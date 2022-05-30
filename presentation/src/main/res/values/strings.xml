@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SessionManager</string>
+
+    <string name="format_session_count">SESSION COUNT: %d</string>
+    <string name="error_generic">Data was not load successfully. Click to retry</string>
+</resources>

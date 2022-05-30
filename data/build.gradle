@@ -1,0 +1,10 @@
+apply plugin: 'com.android.library'
+apply from: '../commons.gradle'
+
+dependencies {
+    implementation project(Modules.domain)
+    implementation Libraries.roomKtx
+    implementation Libraries.roomRuntime
+    kapt Libraries.roomCompiler
+
+}
