@@ -21,6 +21,6 @@ class SessionCounterWorker @AssistedInject constructor(
 
     companion object {
         const val TAG = "SessionCounterWorker"
-        const val DELAY = 5L
+        const val DELAY = 10L
     }
 }
